@@ -335,10 +335,10 @@ class SVMAnalysis():
     
     def myVisualize():
         #x_test_pca,y_test,x_train_pca,y_train,y=SVMAnalysis.mySVM()
-        #x_test_pca,y,y_train,y_test,features,y=SVMAnalysis.myKmeans()
+        x_test_pca,y,y_train,y_test,features,y=SVMAnalysis.myKmeans()
         #x_test_pca,y,y_train,y_test,features,y=SVMAnalysis.myLDA()
         #x_test_pca,y,y_train,y_test,features,y=SVMAnalysis.myAgglomerativeClustering()
-        x_test_pca,y,y_train,y_test,features,y=SVMAnalysis.myDBSCAN()
+        #x_test_pca,y,y_train,y_test,features,y=SVMAnalysis.myDBSCAN()
         y_predict=y[n2-n0:n3-n0]
         Diff=[]
         count=0
